@@ -3,6 +3,7 @@ import Footer from "@/components/layout/Footer";
 import LoadingScreen from "@/components/ui/LoadingScreen";
 import CursorSpotlight from "@/components/ui/CursorSpotlight";
 import VisitorTracker from "@/components/utils/VisitorTracker";
+import PageLoader from "@/components/ui/PageLoader";
 
 export default function PortfolioLayout({
   children,
@@ -12,6 +13,7 @@ export default function PortfolioLayout({
   return (
     <>
       <LoadingScreen />
+      <PageLoader />
       <CursorSpotlight />
       <VisitorTracker />
       <div className="relative min-h-screen flex flex-col">

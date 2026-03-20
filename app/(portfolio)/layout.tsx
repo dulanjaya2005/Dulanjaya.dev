@@ -4,6 +4,7 @@ import LoadingScreen from "@/components/ui/LoadingScreen";
 import CursorSpotlight from "@/components/ui/CursorSpotlight";
 import VisitorTracker from "@/components/utils/VisitorTracker";
 import PageLoader from "@/components/ui/PageLoader";
+import PageSound from "@/components/ui/PageSound";
 
 export default function PortfolioLayout({
   children,
@@ -14,6 +15,7 @@ export default function PortfolioLayout({
     <>
       <LoadingScreen />
       <PageLoader />
+      <PageSound />
       <CursorSpotlight />
       <VisitorTracker />
       <div className="relative min-h-screen flex flex-col">

@@ -14,7 +14,7 @@ const employmentHistory = [
     description:
       "Gained practical experience in software development and problem solving through various projects. Developed strong coding skills and collaborated with team members to deliver high-quality results.",
     accent: "#00F5FF",
-    // logo: "/99x.png",
+    logo: "/99x.png",
   },
 ];
 
